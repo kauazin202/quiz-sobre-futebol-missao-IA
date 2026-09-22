@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d3b1e;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.caixa-principal {
+    background-color: #145228;
+    border: 2px solid #2e8b46;
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #2e8b46;
+    padding-bottom: 10px;
+}
+
+.caixa-inicial p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.caixa-perguntas {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.caixa-alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #0d3b1e;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #2e8b46;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.caixa-resultado {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0d3b1e;
+    border-radius: 8px;
+    border: 1px solid #2e8b46;
+}
+
+.texto-resultado {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-reiniciar {
+    margin-top: 10px;
+}
